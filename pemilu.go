@@ -105,9 +105,6 @@ func adminMenu(C *ListCaleg, threshold *int, waktu_Ontime bool) {
 				fmt.Scan(&pilihan)
 			}
 		}
-		// if tidak on time
-		// tidak memilih selain 1
-		// if pilihan != 1 ; request input baru
 
 		switch pilihan {
 		case 1:
